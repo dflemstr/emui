@@ -1,0 +1,16 @@
+[package]
+name = "emui"
+version = "0.1.0"
+authors = ["David Flemström <david.flemstrom@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-graphics = "0.6.0-alpha.2"
+stretch = { git = "https://github.com/dflemstr/stretch.git", branch = "heapless", default-features = false }
+
+[dev-dependencies]
+embedded-graphics-simulator = "0.2.0-alpha.1"
+structopt = "0.3.5"
+sysinfo = "0.10.2"
