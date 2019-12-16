@@ -28,11 +28,11 @@ $ cargo run --example kitchen_sink --release rgb
 
 ### Monochrome
 
-![monochrome](./media/demo-monochrome.webm)
+![monochrome](./media/demo-monochrome.gif)
 
 ### RGB
 
-![rgb](./media/demo-rgb.webm)
+![rgb](./media/demo-rgb.gif)
 
 ### Responsive layout
 
